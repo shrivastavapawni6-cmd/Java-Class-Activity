@@ -6,9 +6,10 @@ public class PROGRAM6 {
          for(int i = 0; i < a.length(); i++){
              if(a.charAt(i) == ' '){
                  res = res + a.charAt(i);
-                 for(int i =0; i<)
+             }else{
+                 res = res + (char)(a.charAt(i) -64);
              }
-
          }
+         System.out.println(res);
     }
 }
